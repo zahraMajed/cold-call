@@ -49,13 +49,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q99-XE-jE7">
+                                <rect key="frame" x="137.5" y="224" width="45" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="aAC-iT-YxZ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.65625" id="3Id-aQ-oQ5"/>
+                            <constraint firstItem="Q99-XE-jE7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JRl-NJ-af4"/>
                             <constraint firstItem="Sxn-qS-cdE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="MUr-MU-8dl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aAC-iT-YxZ" secondAttribute="bottom" constant="26" id="Mym-hR-T4b"/>
+                            <constraint firstItem="Q99-XE-jE7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QA0-Ux-A7C"/>
                             <constraint firstItem="Sxn-qS-cdE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="d8y-2R-9Md"/>
                             <constraint firstItem="aAC-iT-YxZ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="eMx-wl-VIP"/>
                             <constraint firstItem="Sxn-qS-cdE" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="n3b-fq-Yy7"/>
@@ -63,6 +71,7 @@
                     </view>
                     <connections>
                         <outlet property="nameLabel" destination="Sxn-qS-cdE" id="hKY-Qv-eJt"/>
+                        <outlet property="numLabel" destination="Q99-XE-jE7" id="OUi-E2-G0v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
